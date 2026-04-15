@@ -785,7 +785,7 @@ def main():
         st.markdown("### ⚙️ DATA SOURCE")
         data_mode = st.radio(
             "Select mode",
-            ["Demo Data (Synthetic)", "Upload CSVs"],
+            ["Demo Data (Synthetic)"],
             label_visibility="collapsed",
         )
         st.markdown("---")
